@@ -26,7 +26,6 @@ function alphabet() {
 //number
 let x = 10;
 function number() {
-    let typeOfFunction = typeof number;
     console.log( typeof x);                      
 }
 number();
