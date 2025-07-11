@@ -30,12 +30,25 @@ function number() {
     console.log( typeof x);                      
 }
 number();
+//
 
-//string
-let Name = 'Esther'
-vegetable = 'tomato';
-function Name(){console.log(typeof Name + '-' + 'my Name is' + Name)
-    console.log(typeof Name +'-' + 'my Name is' + Name + 'vegetable name is' + vegetable )}
+/////string example/////
+let Name = "Esther";
+show()
+function show() {
+    console.log(typeof Name + '-' + Name);
+}
+//null
 
+function empty(){
+let emptyvalue = null;
+  console.log(emptyvalue, 'this is an emptyvalue' );
+}
+empty()
 
-
+//undifined
+sayHi()
+function sayHi() {
+let result; 
+console.log( typeof result + '- variable not defined');  
+}

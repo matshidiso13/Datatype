@@ -6,4 +6,4 @@ function myVars(){
 }
 
 console.log(globalVar + ",it is accessble eveywhere")
-console.log(myVars()+ ",is only accessible inside a method or " + "a function")
+console.log(myar()+ ",is only accessible inside a method or " + "a function")
